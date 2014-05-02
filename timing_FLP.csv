@@ -1,0 +1,367 @@
+Language,Full/Limited,Basic/Extended/8way,system,Total time(sec),Elapsed time(sec),Total time,Elapsed time,Total Elapsed Time,Total GPU Time
+102-assamese,Full,basic,PLP Ingestion,3243025,57186,900:50:25,15:53:06,,63:32:24
+102-assamese,Full,basic,PLP Search,8943,285,2:29:03,0:04:45,,0:19:00
+102-assamese,Full,basic,DNN Ingestion,467993,6823,129:59:53,1:53:43,,7:34:52
+102-assamese,Full,basic,DNN Ingestion GPU,2844772,23508,790:12:52,6:31:48,8:25:31,26:07:12
+102-assamese,Full,basic,DNN Search,5306,187,1:28:26,0:03:07,,0:12:28
+102-assamese,Full,basic,BNF Ingestion,4557676,40836,1266:01:16,11:20:36,,45:22:24
+102-assamese,Full,basic,BNF Ingestion GPU,2745088,60397,762:31:28,16:46:37,28:07:13,67:06:28
+102-assamese,Full,basic,BNF Search,11509,277,3:11:49,0:04:37,,0:18:28
+102-assamese,Full,basic,DNN_MPE Ingestion,2116099,28559,587:48:19,7:55:59,,31:43:56
+102-assamese,Full,basic,DNN_MPE Ingestion GPU,3747822,31538,1041:03:42,8:45:38,16:41:37,35:02:32
+102-assamese,Full,basic,DNN_MPE Search,31337,861,8:42:17,0:14:21,,0:57:24
+102-assamese,Full,basic,4way comb Ingestion,9548151,118050,2652:15:51,32:47:30,,131:10:00
+102-assamese,Full,basic,4way comb Ingestion GPU,6492910,91935,1803:35:10,25:32:15,58:19:45,102:09:00
+102-assamese,Full,basic,4way comb Search,55481,1442,15:24:41,0:24:02,,1:36:08
+102-assamese,Full,extended,PLP Ingestion,3307899,59336,918:51:39,16:28:56,,65:55:44
+102-assamese,Full,extended,PLP Search,9184,277,2:33:04,0:04:37,,0:18:28
+102-assamese,Full,extended,DNN Ingestion,545569,9283,151:32:49,2:34:43,,10:18:52
+102-assamese,Full,extended,DNN Ingestion GPU,2844772,23508,790:12:52,6:31:48,9:06:31,26:07:12
+102-assamese,Full,extended,DNN Search,5743,187,1:35:43,0:03:07,,0:12:28
+102-assamese,Full,extended,BNF Ingestion,4773577,43878,1325:59:37,12:11:18,,48:45:12
+102-assamese,Full,extended,BNF Ingestion GPU,2745088,60397,762:31:28,16:46:37,28:57:55,67:06:28
+102-assamese,Full,extended,BNF Search,11985,304,3:19:45,0:05:04,,0:20:16
+102-assamese,Full,extended,DNN_MPE Ingestion,2367529,33809,657:38:49,9:23:29,,37:33:56
+102-assamese,Full,extended,DNN_MPE Ingestion GPU,903050,8030,250:50:50,2:13:50,11:37:19,8:55:20
+102-assamese,Full,extended,DNN_MPE Search,34106,905,9:28:26,0:15:05,,1:00:20
+102-assamese,Full,extended,4way comb Ingestion,9789219,122512,2719:13:39,34:01:52,,136:07:28
+102-assamese,Full,extended,4way comb Ingestion GPU,6492910,91935,1803:35:10,25:32:15,59:34:07,102:09:00
+102-assamese,Full,extended,4way comb Search,59623,1511,16:33:43,0:25:11,,1:40:44
+102-assamese,Full,8way,8way comb Ingestion,18683458,235509,5189:50:58,65:25:09,,261:40:36
+102-assamese,Full,8way,8way comb Ingestion GPU,6492910,91935,1803:35:10,25:32:15,90:57:24,102:09:00
+102-assamese,Full,8way,8way comb Search,115104,2953,31:58:24,0:49:13,,3:16:52
+103-bengali,Full,basic,PLP Ingestion,2644449,56178,734:34:09,15:36:18,,62:25:12
+103-bengali,Full,basic,PLP Search,10506,449,2:55:06,0:07:29,,0:29:56
+103-bengali,Full,basic,DNN Ingestion,571163,8567,158:39:23,2:22:47,,9:31:08
+103-bengali,Full,basic,DNN Ingestion GPU,2887670,23770,802:07:50,6:36:10,8:58:57,26:24:40
+103-bengali,Full,basic,DNN Search,7335,349,2:02:15,0:05:49,,0:23:16
+103-bengali,Full,basic,BNF Ingestion,4684807,43246,1301:20:07,12:00:46,,48:03:04
+103-bengali,Full,basic,BNF Ingestion GPU,2568367,58686,713:26:07,16:18:06,28:18:52,65:12:24
+103-bengali,Full,basic,BNF Search,12241,421,3:24:01,0:07:01,,0:28:04
+103-bengali,Full,basic,DNN_MPE Ingestion,2642657,34339,734:04:17,9:32:19,,38:09:16
+103-bengali,Full,basic,DNN_MPE Ingestion GPU,3998498,33660,1110:41:38,9:21:00,18:53:19,37:24:00
+103-bengali,Full,basic,DNN_MPE Search,41916,1156,11:38:36,0:19:16,,1:17:04
+103-bengali,Full,basic,4way comb Ingestion,9615593,123702,2670:59:53,34:21:42,,137:26:48
+103-bengali,Full,basic,4way comb Ingestion GPU,6566865,92346,1824:07:45,25:39:06,60:00:48,102:36:24
+103-bengali,Full,basic,4way comb Search,70012,1895,19:26:52,0:31:35,,2:06:20
+103-bengali,Full,extended,PLP Ingestion,2719089,59999,11:18:09,16:39:59,,66:39:56
+103-bengali,Full,extended,PLP Search,10748,336,2:59:08,0:05:36,,0:22:24
+103-bengali,Full,extended,DNN Ingestion,658013,12640,14:46:53,3:30:40,,14:02:40
+103-bengali,Full,extended,DNN Ingestion GPU,2887670,23770,802:07:50,6:36:10,10:06:50,26:24:40
+103-bengali,Full,extended,DNN Search,7788,242,2:09:48,0:04:02,,0:16:08
+103-bengali,Full,extended,BNF Ingestion,4924198,47913,23:49:58,13:18:33,,53:14:12
+103-bengali,Full,extended,BNF Ingestion GPU,2568367,58686,713:26:07,16:18:06,29:36:39,65:12:24
+103-bengali,Full,extended,BNF Search,13142,373,3:39:02,0:06:13,,0:24:52
+103-bengali,Full,extended,DNN_MPE Ingestion,2952537,41572,4:08:57,11:32:52,,46:11:28
+103-bengali,Full,extended,DNN_MPE Ingestion GPU,1110828,9890,308:33:48,2:44:50,14:17:42,10:59:20
+103-bengali,Full,extended,DNN_MPE Search,44151,1096,12:15:51,0:18:16,,1:13:04
+103-bengali,Full,extended,4way comb Ingestion,9887741,129845,10:35:41,12:04:05,,48:16:20
+103-bengali,Full,extended,4way comb Ingestion GPU,6566865,92346,1824:07:45,25:39:06,37:43:11,102:36:24
+103-bengali,Full,extended,4way comb Search,74527,1921,20:42:07,0:32:01,,2:08:04
+103-bengali,Full,8-way,8way comb Ingestion,19487761,249112,5413:16:01,69:11:52,,276:47:28
+103-bengali,Full,8-way,8way comb Ingestion GPU,6566865,92346,1824:07:45,25:39:06,94:50:58,102:36:24
+103-bengali,Full,8-way,8way comb Search,144539,3816,40:08:59,1:03:36,,4:14:24
+201-Haitian,Full,basic,PLP Ingestion,3327762,61413,924:22:42,17:03:33,,68:14:12
+201-Haitian,Full,basic,PLP Search,10520,280,2:55:20,0:04:40,,0:18:40
+201-Haitian,Full,basic,DNN Ingestion,548273,7924,152:17:53,2:12:04,,8:48:16
+201-Haitian,Full,basic,DNN Ingestion GPU,3052366,25022,847:52:46,6:57:02,9:09:06,27:48:08
+201-Haitian,Full,basic,DNN Search,8596,229,2:23:16,0:03:49,,0:15:16
+201-Haitian,Full,basic,BNF Ingestion,4911219,44666,1364:13:39,12:24:26,,49:37:44
+201-Haitian,Full,basic,BNF Ingestion GPU,2613979,59489,726:06:19,16:31:29,28:55:55,66:05:56
+201-Haitian,Full,basic,BNF Search,12498,300,3:28:18,0:05:00,,0:20:00
+201-Haitian,Full,basic,DNN_MPE Ingestion,2327371,35300,646:29:31,9:48:20,,39:13:20
+201-Haitian,Full,basic,DNN_MPE Ingestion GPU,3993660,33372,1109:21:00,9:16:12,19:04:32,37:04:48
+201-Haitian,Full,basic,DNN_MPE Search,44818,1035,12:26:58,0:17:15,,1:09:00
+201-Haitian,Full,basic,4way comb Ingestion,10167267,132922,2824:14:27,36:55:22,,147:41:28
+201-Haitian,Full,basic,4way comb Ingestion GPU,6607639,92861,1835:27:19,25:47:41,62:43:03,103:10:44
+201-Haitian,Full,basic,4way comb Search,75121,1781,20:52:01,0:29:41,,1:58:44
+201-Haitian,Full,extended,PLP Ingestion,3432235,65071,953:23:55,18:04:31,,72:18:04
+201-Haitian,Full,extended,PLP Search,12730,330,3:32:10,0:05:30,,0:22:00
+201-Haitian,Full,extended,DNN Ingestion,662978,11856,184:09:38,3:17:36,,13:10:24
+201-Haitian,Full,extended,DNN Ingestion GPU,3052366,25022,847:52:46,6:57:02,10:14:38,27:48:08
+201-Haitian,Full,extended,DNN Search,11929,303,3:18:49,0:05:03,,0:20:12
+201-Haitian,Full,extended,BNF Ingestion,5193483,49686,1442:38:03,13:48:06,,55:12:24
+201-Haitian,Full,extended,BNF Ingestion GPU,2613979,59489,726:06:19,16:31:29,30:19:35,66:05:56
+201-Haitian,Full,extended,BNF Search,15782,375,4:23:02,0:06:15,,0:25:00
+201-Haitian,Full,extended,DNN_MPE Ingestion,2539593,38849,705:26:33,10:47:29,,43:09:56
+201-Haitian,Full,extended,DNN_MPE Ingestion GPU,941294,8350,261:28:14,2:19:10,13:06:39,9:16:40
+201-Haitian,Full,extended,DNN_MPE Search,60670,1371,16:51:10,0:22:51,,1:31:24
+201-Haitian,Full,extended,4way comb Ingestion,10357878,135513,2877:11:18,37:38:33,,150:34:12
+201-Haitian,Full,extended,4way comb Ingestion GPU,6607639,92861,1835:27:19,25:47:41,63:26:14,103:10:44
+201-Haitian,Full,extended,4way comb Search,100163,2334,27:49:23,0:38:54,,2:35:36
+201-Haitian,Full,8-way,8way comb Ingestion,19630541,261575,5452:55:41,72:39:35,,290:38:20
+201-Haitian,Full,8-way,8way comb Ingestion GPU,6607639,92861,1835:27:19,25:47:41,98:27:16,103:10:44
+201-Haitian,Full,8-way,8way comb Search,175284,4115,48:41:24,1:08:35,,4:34:20
+203-Lao,Full,basic,PLP Ingestion,2863483,55939,795:24:43,15:32:19,,62:09:16
+203-Lao,Full,basic,PLP Search,8239,215,2:17:19,0:03:35,,0:14:20
+203-Lao,Full,basic,DNN Ingestion,496976,7655,138:02:56,2:07:35,,8:30:20
+203-Lao,Full,basic,DNN Ingestion GPU,2994849,24561,831:54:09,6:49:21,8:56:56,27:17:24
+203-Lao,Full,basic,DNN Search,5558,180,1:32:38,0:03:00,,0:12:00
+203-Lao,Full,basic,BNF Ingestion,4769836,43125,1324:57:16,11:58:45,,47:55:00
+203-Lao,Full,basic,BNF Ingestion GPU,2299704,54487,638:48:24,15:08:07,27:06:52,60:32:28
+203-Lao,Full,basic,BNF Search,10277,244,2:51:17,0:04:04,,0:16:16
+203-Lao,Full,basic,DNN_MPE Ingestion,2141301,31974,594:48:21,8:52:54,,35:31:36
+203-Lao,Full,basic,DNN_MPE Ingestion GPU,3888207,32790,1080:03:27,9:06:30,17:59:24,36:26:00
+203-Lao,Full,basic,DNN_MPE Search,35006,886,9:43:26,0:14:46,,0:59:04
+203-Lao,Full,basic,4way comb Ingestion,9387020,121503,2607:30:20,33:45:03,,135:00:12
+203-Lao,Full,basic,4way comb Ingestion GPU,6187911,87277,1718:51:51,24:14:37,57:59:40,96:58:28
+203-Lao,Full,basic,4way comb Search,58816,1504,16:20:16,0:25:04,,1:40:16
+203-Lao,Full,extended,PLP Ingestion,2921106,58461,811:25:06,16:14:21,,64:57:24
+203-Lao,Full,extended,PLP Search,8241,248,2:17:21,0:04:08,,0:16:32
+203-Lao,Full,extended,DNN Ingestion,558155,10349,155:02:35,2:52:29,,11:29:56
+203-Lao,Full,extended,DNN Ingestion GPU,2994849,24561,831:54:09,6:49:21,9:41:50,27:17:24
+203-Lao,Full,extended,DNN Search,5641,212,1:34:01,0:03:32,,0:14:08
+203-Lao,Full,extended,BNF Ingestion,4978037,46763,1382:47:17,12:59:23,,51:57:32
+203-Lao,Full,extended,BNF Ingestion GPU,2299704,54487,638:48:24,15:08:07,28:07:30,60:32:28
+203-Lao,Full,extended,BNF Search,10275,280,2:51:15,0:04:40,,0:18:40
+203-Lao,Full,extended,DNN_MPE Ingestion,2256347,34316,626:45:47,9:31:56,,38:07:44
+203-Lao,Full,extended,DNN_MPE Ingestion GPU,893358,8229,248:09:18,2:17:09,11:49:05,9:08:36
+203-Lao,Full,extended,DNN_MPE Search,34065,904,9:27:45,0:15:04,,1:00:16
+203-Lao,Full,extended,4way comb Ingestion,9470153,122884,2630:35:53,34:08:04,,136:32:16
+203-Lao,Full,extended,4way comb Ingestion GPU,6187911,87277,1718:51:51,24:14:37,58:22:41,96:58:28
+203-Lao,Full,extended,4way comb Search,57316,1509,15:55:16,0:25:09,,1:40:36
+203-Lao,Full,8-way,8way comb Ingestion,17949119,235636,4985:51:59,65:27:16,,261:49:04
+203-Lao,Full,8-way,8way comb Ingestion GPU,6187911,87277,1718:51:51,24:14:37,89:41:53,96:58:28
+203-Lao,Full,8-way,8way comb Search,116132,3013,32:15:32,0:50:13,,3:20:52
+206-Zulu,Full,basic,PLP Ingestion,3033485,64166,842:38:05,17:49:26,,71:17:44
+206-Zulu,Full,basic,PLP Search,14464,534,4:01:04,0:08:54,,0:35:36
+206-Zulu,Full,basic,DNN Ingestion,615924,15173,171:05:24,4:12:53,,16:51:32
+206-Zulu,Full,basic,DNN Ingestion GPU,2901803,23876,806:03:23,6:37:56,10:50:49,26:31:44
+206-Zulu,Full,basic,DNN Search,8660,396,2:24:20,0:06:36,,0:26:24
+206-Zulu,Full,basic,BNF Ingestion,4817981,49627,1338:19:41,13:47:07,,55:08:28
+206-Zulu,Full,basic,BNF Ingestion GPU,2530856,57935,703:00:56,16:05:35,29:52:42,64:22:20
+206-Zulu,Full,basic,BNF Search,10365,444,2:52:45,0:07:24,,0:29:36
+206-Zulu,Full,basic,DNN_MPE Ingestion,2792379,42246,775:39:39,11:44:06,,46:56:24
+206-Zulu,Full,basic,DNN_MPE Ingestion GPU,3553378,29778,987:02:58,8:16:18,20:00:24,33:05:12
+206-Zulu,Full,basic,DNN_MPE Search,35354,972,9:49:14,0:16:12,,1:04:48
+206-Zulu,Full,basic,4way comb Ingestion,10207104,133030,2835:18:24,36:57:10,,147:48:40
+206-Zulu,Full,basic,4way comb Ingestion GPU,6084234,87713,1690:03:54,24:21:53,61:19:03,97:27:32
+206-Zulu,Full,basic,4way comb Search,59291,1533,16:28:11,0:25:33,,1:42:12
+206-Zulu,Full,extended,PLP Ingestion,3253144,105234,903:39:04,29:13:54,,116:55:36
+206-Zulu,Full,extended,PLP Search,18682,342,5:11:22,0:05:42,,0:22:48
+206-Zulu,Full,extended,DNN Ingestion,840019,56554,233:20:19,15:42:34,,62:50:16
+206-Zulu,Full,extended,DNN Ingestion GPU,2901803,23876,806:03:23,6:37:56,22:20:30,26:31:44
+206-Zulu,Full,extended,DNN Search,9272,196,2:34:32,0:03:16,,0:13:04
+206-Zulu,Full,extended,BNF Ingestion,5208362,91611,1446:46:02,25:26:51,,101:47:24
+206-Zulu,Full,extended,BNF Ingestion GPU,2530856,57935,703:00:56,16:05:35,41:32:26,64:22:20
+206-Zulu,Full,extended,BNF Search,12929,266,3:35:29,0:04:26,,0:17:44
+206-Zulu,Full,extended,DNN_MPE Ingestion,3343754,88045,928:49:14,24:27:25,,97:49:40
+206-Zulu,Full,extended,DNN_MPE Ingestion GPU,651575,5902,180:59:35,1:38:22,26:05:47,6:33:28
+206-Zulu,Full,extended,DNN_MPE Search,45161,854,12:32:41,0:14:14,,0:56:56
+206-Zulu,Full,extended,4way comb Ingestion,10799146,178730,2999:45:46,49:38:50,,198:35:20
+206-Zulu,Full,extended,4way comb Ingestion GPU,6084234,87713,1690:03:54,24:21:53,74:00:43,97:27:32
+206-Zulu,Full,extended,4way comb Search,82606,1535,22:56:46,0:25:35,,1:42:20
+206-Zulu,Full,8-way,8way comb Ingestion,20047466,294848,5568:44:26,81:54:08,,327:36:32
+206-Zulu,Full,8-way,8way comb Ingestion GPU,6084234,87713,1690:03:54,24:21:53,106:16:01,97:27:32
+206-Zulu,Full,8-way,8way comb Search,141897,3068,39:24:57,0:51:08,,3:24:32
+102-assamese,Limited,basic,PLP Ingestion,647229,13361,179:47:09,3:42:41,,14:50:44
+102-assamese,Limited,basic,PLP Search,15090,563,4:11:30,0:09:23,,0:37:32
+102-assamese,Limited,basic,DNN Ingestion,310026,9789,86:07:06,2:43:09,,10:52:36
+102-assamese,Limited,basic,DNN Ingestion GPU,1248431,19960,346:47:11,5:32:40,8:15:49,22:10:40
+102-assamese,Limited,basic,DNN Search,12110,476,3:21:50,0:07:56,,0:31:44
+102-assamese,Limited,basic,BNF Ingestion,897509,13576,249:18:29,3:46:16,,15:05:04
+102-assamese,Limited,basic,BNF Ingestion GPU,131628,6663,36:33:48,1:51:03,5:37:19,7:24:12
+102-assamese,Limited,basic,BNF Search,21330,621,5:55:30,0:10:21,,0:41:24
+102-assamese,Limited,basic,BNF_SEMISUP Ingestion,2351754,21272,653:15:54,5:54:32,,23:38:08
+102-assamese,Limited,basic,BNF_SEMISUP Ingestion GPU,3010531,46997,836:15:31,13:03:17,18:57:49,52:13:08
+102-assamese,Limited,basic,BNF_SEMISUP Search,17788,509,4:56:28,0:08:29,,0:33:56
+102-assamese,Limited,basic,4way comb Ingestion,4104722,51449,1140:12:02,14:17:29,,57:09:56
+102-assamese,Limited,basic,4way comb Ingestion GPU,4390590,73620,1219:36:30,20:27:00,34:44:29,81:48:00
+102-assamese,Limited,basic,4way comb Search,61716,1707,17:08:36,0:28:27,,1:53:48
+102-assamese,Limited,extended,PLP Ingestion,722713,14844,200:45:13,4:07:24,,16:29:36
+102-assamese,Limited,extended,PLP Search,13392,388,3:43:12,0:06:28,,0:25:52
+102-assamese,Limited,extended,DNN Ingestion,484245,6663,134:30:45,1:51:03,,7:24:12
+102-assamese,Limited,extended,DNN Ingestion GPU,1248431,19960,346:47:11,5:32:40,7:23:43,22:10:40
+102-assamese,Limited,extended,DNN Search,11467,300,3:11:07,0:05:00,,0:20:00
+102-assamese,Limited,extended,BNF Ingestion,1113073,15885,309:11:13,4:24:45,,17:39:00
+102-assamese,Limited,extended,BNF Ingestion GPU,131628,6663,36:33:48,1:51:03,6:15:48,7:24:12
+102-assamese,Limited,extended,BNF Search,19113,413,5:18:33,0:06:53,,0:27:32
+102-assamese,Limited,extended,BNF_SEMISUP Ingestion,2555136,23453,709:45:36,6:30:53,,26:03:32
+102-assamese,Limited,extended,BNF_SEMISUP Ingestion GPU,3010531,46997,836:15:31,13:03:17,19:34:10,52:13:08
+102-assamese,Limited,extended,BNF_SEMISUP Search,16451,383,4:34:11,0:06:23,,0:25:32
+102-assamese,Limited,extended,4way comb Ingestion,4344779,49841,1206:52:59,13:50:41,,55:22:44
+102-assamese,Limited,extended,4way comb Ingestion GPU,4390590,73620,1219:36:30,20:27:00,34:17:41,81:48:00
+102-assamese,Limited,extended,4way comb Search,57147,1271,15:52:27,0:21:11,,1:24:44
+102-assamese,Limited,8way,8way comb Ingestion,5999833,72319,1666:37:13,20:05:19,,80:21:16
+102-assamese,Limited,8way,8way comb Ingestion GPU,4390590,73620,1219:36:30,20:27:00,40:32:19,81:48:00
+102-assamese,Limited,8way,8way comb Search,118863,2978,33:01:03,0:49:38,,3:18:32
+103-Bengali,Limited,basic,PLP Ingestion,745172,16209,206:59:32,4:30:09,,18:00:36
+103-Bengali,Limited,basic,PLP Search,19794,647,5:29:54,0:10:47,,0:43:08
+103-Bengali,Limited,basic,DNN Ingestion,364320,11946,101:12:00,3:19:06,,13:16:24
+103-Bengali,Limited,basic,DNN Ingestion GPU,1300687,20819,361:18:07,5:46:59,9:06:05,23:07:56
+103-Bengali,Limited,basic,DNN Search,15054,460,4:10:54,0:07:40,,0:30:40
+103-Bengali,Limited,basic,BNF Ingestion,986093,15763,273:54:53,4:22:43,,17:30:52
+103-Bengali,Limited,basic,BNF Ingestion GPU,134380,7277,37:19:40,2:01:17,6:24:00,8:05:08
+103-Bengali,Limited,basic,BNF Search,26644,684,7:24:04,0:11:24,,0:45:36
+103-Bengali,Limited,basic,BNF_SEMISUP Ingestion,2522973,24579,700:49:33,6:49:39,,27:18:36
+103-Bengali,Limited,basic,BNF_SEMISUP Ingestion GPU,3296575,51740,915:42:55,14:22:20,21:11:59,57:29:20
+103-Bengali,Limited,basic,BNF_SEMISUP Search,22071,577,6:07:51,0:09:37,,0:38:28
+103-Bengali,Limited,basic,4way comb Ingestion,4507276,59002,1252:01:16,16:23:22,,65:33:28
+103-Bengali,Limited,basic,4way comb Ingestion GPU,4731642,79836,1314:20:42,22:10:36,38:33:58,88:42:24
+103-Bengali,Limited,basic,4way comb Search,77203,2026,21:26:43,0:33:46,,2:15:04
+103-Bengali,Limited,extended,PLP Ingestion,839372,19713,233:09:32,5:28:33,,21:54:12
+103-Bengali,Limited,extended,PLP Search,17108,480,4:45:08,0:08:00,,0:32:00
+103-Bengali,Limited,extended,DNN Ingestion,571817,10026,158:50:17,2:47:06,,11:08:24
+103-Bengali,Limited,extended,DNN Ingestion GPU,1300687,20819,361:18:07,5:46:59,8:34:05,23:07:56
+103-Bengali,Limited,extended,DNN Search,13771,306,3:49:31,0:05:06,,0:20:24
+103-Bengali,Limited,extended,BNF Ingestion,1238883,20240,344:08:03,5:37:20,,22:29:20
+103-Bengali,Limited,extended,BNF Ingestion GPU,134380,7277,37:19:40,2:01:17,7:38:37,8:05:08
+103-Bengali,Limited,extended,BNF Search,23867,623,6:37:47,0:10:23,,0:41:32
+103-Bengali,Limited,extended,BNF_SEMISUP Ingestion,2759146,28894,766:25:46,8:01:34,,32:06:16
+103-Bengali,Limited,extended,BNF_SEMISUP Ingestion GPU,3296575,51740,915:42:55,14:22:20,22:23:54,57:29:20
+103-Bengali,Limited,extended,BNF_SEMISUP Search,19389,428,5:23:09,0:07:08,,0:28:32
+103-Bengali,Limited,extended,4way comb Ingestion,4814240,59859,1337:17:20,16:37:39,,66:30:36
+103-Bengali,Limited,extended,4way comb Ingestion GPU,4731642,79836,1314:20:42,22:10:36,38:48:15,88:42:24
+103-Bengali,Limited,extended,4way comb Search,71429,1732,19:50:29,0:28:52,,1:55:28
+103-Bengali,Limited,8-way,8way comb Ingestion,6760127,87398,1877:48:47,24:16:38,,97:06:32
+103-Bengali,Limited,8-way,8way comb Ingestion GPU,4731642,79836,1314:20:42,22:10:36,46:27:14,88:42:24
+103-Bengali,Limited,8-way,8way comb Search,148632,3758,41:17:12,1:02:38,,4:10:32
+201-Haitian,Limited,basic,PLP Ingestion,716215,17766,198:56:55,4:56:06,,19:44:24
+201-Haitian,Limited,basic,PLP Search,19755,590,5:29:15,0:09:50,,0:39:20
+201-Haitian,Limited,basic,DNN Ingestion,402381,14135,111:46:21,3:55:35,,15:42:20
+201-Haitian,Limited,basic,DNN Ingestion GPU,1447194,25942,401:59:54,7:12:22,11:07:57,28:49:28
+201-Haitian,Limited,basic,DNN Search,21695,538,6:01:35,0:08:58,,0:35:52
+201-Haitian,Limited,basic,BNF Ingestion,922796,16751,256:19:56,4:39:11,,18:36:44
+201-Haitian,Limited,basic,BNF Ingestion GPU,132343,6958,36:45:43,1:55:58,6:35:09,7:43:52
+201-Haitian,Limited,basic,BNF Search,28322,692,7:52:02,0:11:32,,0:46:08
+201-Haitian,Limited,basic,BNF_SEMISUP Ingestion,2725738,27158,757:08:58,7:32:38,,30:10:32
+201-Haitian,Limited,basic,BNF_SEMISUP Ingestion GPU,3935863,63674,1093:17:43,17:41:14,25:13:52,70:44:56
+201-Haitian,Limited,basic,BNF_SEMISUP Search,22933,568,6:22:13,0:09:28,,0:37:52
+201-Haitian,Limited,basic,4way comb Ingestion,4671865,69420,1297:44:25,19:17:00,,77:08:00
+201-Haitian,Limited,basic,4way comb Ingestion GPU,5515400,96574,1532:03:20,26:49:34,46:06:34,107:18:16
+201-Haitian,Limited,basic,4way comb Search,91064,2313,25:17:44,0:38:33,,2:34:12
+201-Haitian,Limited,extended,PLP Ingestion,776744,19202,215:45:44,5:20:02,,21:20:08
+201-Haitian,Limited,extended,PLP Search,19607,739,5:26:47,0:12:19,,0:49:16
+201-Haitian,Limited,extended,DNN Ingestion,577803,9435,160:30:03,2:37:15,,10:29:00
+201-Haitian,Limited,extended,DNN Ingestion GPU,1447194,25942,401:59:54,7:12:22,9:49:37,28:49:28
+201-Haitian,Limited,extended,DNN Search,36731,3335,10:12:11,0:55:35,,3:42:20
+201-Haitian,Limited,extended,BNF Ingestion,1140031,19599,316:40:31,5:26:39,,21:46:36
+201-Haitian,Limited,extended,BNF Ingestion GPU,132343,6958,36:45:43,1:55:58,7:22:37,7:43:52
+201-Haitian,Limited,extended,BNF Search,26152,627,7:15:52,0:10:27,,0:41:48
+201-Haitian,Limited,extended,BNF_SEMISUP Ingestion,2931174,29689,814:12:54,8:14:49,,32:59:16
+201-Haitian,Limited,extended,BNF_SEMISUP Ingestion GPU,3935863,63674,1093:17:43,17:41:14,25:56:03,70:44:56
+201-Haitian,Limited,extended,BNF_SEMISUP Search,21543,518,5:59:03,0:08:38,,0:34:32
+201-Haitian,Limited,extended,4way comb Ingestion,4844196,66594,1345:36:36,18:29:54,,73:59:36
+201-Haitian,Limited,extended,4way comb Ingestion GPU,5515400,96574,1532:03:20,26:49:34,45:19:28,107:18:16
+201-Haitian,Limited,extended,4way comb Search,102410,5162,28:26:50,1:26:02,,5:44:08
+201-Haitian,Limited,8-way,8way comb Ingestion,6749841,106626,1874:57:21,29:37:06,,118:28:24
+201-Haitian,Limited,8-way,8way comb Ingestion GPU,5515400,96574,1532:03:20,26:49:34,56:26:40,107:18:16
+201-Haitian,Limited,8-way,8way comb Search,193474,7475,53:44:34,2:04:35,,8:18:20
+203-Lao,Limited,basic,PLP Ingestion,607113,14042,168:38:33,3:54:02,,15:36:08
+203-Lao,Limited,basic,PLP Search,14994,461,4:09:54,0:07:41,,0:30:44
+203-Lao,Limited,basic,DNN Ingestion,319368,10409,88:42:48,2:53:29,,11:33:56
+203-Lao,Limited,basic,DNN Ingestion GPU,1412556,22683,392:22:36,6:18:03,9:11:32,25:12:12
+203-Lao,Limited,basic,DNN Search,16553,428,4:35:53,0:07:08,,0:28:32
+203-Lao,Limited,basic,BNF Ingestion,852946,14912,236:55:46,4:08:32,,16:34:08
+203-Lao,Limited,basic,BNF Ingestion GPU,114768,6030,31:52:48,1:40:30,5:49:02,6:42:00
+203-Lao,Limited,basic,BNF Search,24901,616,6:55:01,0:10:16,,0:41:04
+203-Lao,Limited,basic,BNF_SEMISUP Ingestion,2601102,26362,722:31:42,7:19:22,,29:17:28
+203-Lao,Limited,basic,BNF_SEMISUP Ingestion GPU,3702243,58372,1028:24:03,16:12:52,23:32:14,64:51:28
+203-Lao,Limited,basic,BNF_SEMISUP Search,19059,462,5:17:39,0:07:42,,0:30:48
+203-Lao,Limited,basic,4way comb Ingestion,4285429,58999,1190:23:49,16:23:19,,65:33:16
+203-Lao,Limited,basic,4way comb Ingestion GPU,5229567,87085,1452:39:27,24:11:25,40:34:44,96:45:40
+203-Lao,Limited,basic,4way comb Search,74928,1919,20:48:48,0:31:59,,2:07:56
+203-Lao,Limited,extended,PLP Ingestion,633608,14724,176:00:08,4:05:24,,16:21:36
+203-Lao,Limited,extended,PLP Search,11721,344,3:15:21,0:05:44,,0:22:56
+203-Lao,Limited,extended,DNN Ingestion,431035,6548,119:43:55,1:49:08,,7:16:32
+203-Lao,Limited,extended,DNN Ingestion GPU,1412556,22683,392:22:36,6:18:03,8:07:11,25:12:12
+203-Lao,Limited,extended,DNN Search,12949,354,3:35:49,0:05:54,,0:23:36
+203-Lao,Limited,extended,BNF Ingestion,1005818,16403,279:23:38,4:33:23,,18:13:32
+203-Lao,Limited,extended,BNF Ingestion GPU,114768,6030,31:52:48,1:40:30,6:13:53,6:42:00
+203-Lao,Limited,extended,BNF Search,17401,450,4:50:01,0:07:30,,0:30:00
+203-Lao,Limited,extended,BNF_SEMISUP Ingestion,2561408,25878,711:30:08,7:11:18,,28:45:12
+203-Lao,Limited,extended,BNF_SEMISUP Ingestion GPU,3702243,58372,1028:24:03,16:12:52,23:24:10,64:51:28
+203-Lao,Limited,extended,BNF_SEMISUP Search,13783,358,3:49:43,0:05:58,,0:23:52
+203-Lao,Limited,extended,4way comb Ingestion,4113946,52648,1142:45:46,14:37:28,,58:29:52
+203-Lao,Limited,extended,4way comb Ingestion GPU,5229567,87085,1452:39:27,24:11:25,38:48:53,96:45:40
+203-Lao,Limited,extended,4way comb Search,54495,1356,15:08:15,0:22:36,,1:30:24
+203-Lao,Limited,8-way,8way comb Ingestion,5907745,82003,1641:02:25,22:46:43,,91:06:52
+203-Lao,Limited,8-way,8way comb Ingestion GPU,5229567,87085,1452:39:27,24:11:25,46:58:08,96:45:40
+203-Lao,Limited,8-way,8way comb Search,129423,3275,35:57:03,0:54:35,,3:38:20
+206-Zulu,Limited,basic,PLP Ingestion,704221,19734,195:37:01,5:28:54,,21:55:36
+206-Zulu,Limited,basic,PLP Search,22541,965,6:15:41,0:16:05,,1:04:20
+206-Zulu,Limited,basic,DNN Ingestion,339561,12598,94:19:21,3:29:58,,13:59:52
+206-Zulu,Limited,basic,DNN Ingestion GPU,1248538,20113,346:48:58,5:35:13,9:05:11,22:20:52
+206-Zulu,Limited,basic,DNN Search,14265,793,3:57:45,0:13:13,,0:52:52
+206-Zulu,Limited,basic,BNF Ingestion,887066,18425,246:24:26,5:07:05,,20:28:20
+206-Zulu,Limited,basic,BNF Ingestion GPU,117714,6350,32:41:54,1:45:50,6:52:55,7:03:20
+206-Zulu,Limited,basic,BNF Search,21605,916,6:00:05,0:15:16,,1:01:04
+206-Zulu,Limited,basic,BNF_SEMISUP Ingestion,2367687,28181,657:41:27,7:49:41,,31:18:44
+206-Zulu,Limited,basic,BNF_SEMISUP Ingestion GPU,3265626,51316,907:07:06,14:15:16,22:04:57,57:01:04
+206-Zulu,Limited,basic,BNF_SEMISUP Search,19155,847,5:19:15,0:14:07,,0:56:28
+206-Zulu,Limited,basic,4way comb Ingestion,4182720,63260,1161:52:00,17:34:20,,70:17:20
+206-Zulu,Limited,basic,4way comb Ingestion GPU,4631878,77779,1286:37:58,21:36:19,39:10:39,86:25:16
+206-Zulu,Limited,basic,4way comb Search,65323,2285,18:08:43,0:38:05,,2:32:20
+206-Zulu,Limited,extended,PLP Ingestion,937129,23301,260:18:49,6:28:21,,25:53:24
+206-Zulu,Limited,extended,PLP Search,34107,498,9:28:27,0:08:18,,0:33:12
+206-Zulu,Limited,extended,DNN Ingestion,635545,13626,176:32:25,3:47:06,,15:08:24
+206-Zulu,Limited,extended,DNN Ingestion GPU,1248538,20113,346:48:58,5:35:13,9:22:19,22:20:52
+206-Zulu,Limited,extended,DNN Search,13700,253,3:48:20,0:04:13,,0:16:52
+206-Zulu,Limited,extended,BNF Ingestion,1259628,22914,349:53:48,6:21:54,,25:27:36
+206-Zulu,Limited,extended,BNF Ingestion GPU,117714,6350,32:41:54,1:45:50,8:07:44,7:03:20
+206-Zulu,Limited,extended,BNF Search,34186,611,9:29:46,0:10:11,,0:40:44
+206-Zulu,Limited,extended,BNF_SEMISUP Ingestion,2700278,32637,750:04:38,9:03:57,,36:15:48
+206-Zulu,Limited,extended,BNF_SEMISUP Ingestion GPU,3265626,51316,907:07:06,14:15:16,23:19:13,57:01:04
+206-Zulu,Limited,extended,BNF_SEMISUP Search,31488,486,8:44:48,0:08:06,,0:32:24
+206-Zulu,Limited,extended,4way comb Ingestion,4805068,61893,1334:44:28,17:11:33,,68:46:12
+206-Zulu,Limited,extended,4way comb Ingestion GPU,4631878,77779,1286:37:58,21:36:19,38:47:52,86:25:16
+206-Zulu,Limited,extended,4way comb Search,108606,1728,30:10:06,0:28:48,,1:55:12
+206-Zulu,Limited,8-way,8way comb Ingestion,6628930,93543,1841:22:10,25:59:03,,103:56:12
+206-Zulu,Limited,8-way,8way comb Ingestion GPU,4631878,77779,1286:37:58,21:36:19,47:35:22,86:25:16
+206-Zulu,Limited,8-way,8way comb Search,173929,4013,48:18:49,1:06:53,,4:27:32
+204-Tamil,Full,basic,PLP Ingestion,5770490,149199,786:54:50,41:26:39,,165:46:36
+204-Tamil,Full,basic,PLP Search,43264,2352,12:01:04,0:39:12,,2:36:48
+204-Tamil,Full,basic,DNN Ingestion,1980755,33900,70:12:35,9:25:00,,37:40:00
+204-Tamil,Full,basic,DNN Ingestion GPU,3002057,34102,17:54:17,9:28:22,18:53:22,37:53:28
+204-Tamil,Full,basic,DNN Search,51148,1523,14:12:28,0:25:23,,1:41:32
+204-Tamil,Full,basic,BNF Ingestion,6366937,102411,64:35:37,28:26:51,,113:47:24
+204-Tamil,Full,basic,BNF Ingestion GPU,2916396,112818,18:06:36,7:20:18,35:47:09,29:21:12
+204-Tamil,Full,basic,BNF Search,53174,2719,14:46:14,0:45:19,,3:01:16
+204-Tamil,Full,basic,DNN_MPE Ingestion,8931271,128007,80:54:31,35:33:27,,142:13:48
+204-Tamil,Full,basic,DNN_MPE Ingestion GPU,4538232,58255,36:37:12,16:10:55,51:44:22,64:43:40
+204-Tamil,Full,basic,DNN_MPE Search,288203,6839,32:03:23,1:53:59,,7:35:56
+204-Tamil,Full,basic,4way comb Ingestion,20487886,349856,867:04:46,97:10:56,,388:43:44
+204-Tamil,Full,basic,4way comb Ingestion GPU,7454628,171073,54:43:48,23:31:13,120:42:09,94:04:52
+204-Tamil,Full,basic,4way comb Search,432654,13226,72:10:54,3:40:26,,14:41:44
+204-Tamil,Limited,basic,DNN_RESCORED Ingestion,6641445,113879,1844:50:45,31:37:59,,126:31:56
+204-Tamil,Limited,basic,DNN_RESCORED Ingestion GPU,109087,28923,30:18:07,8:02:03,39:40:02,32:08:12
+204-Tamil,Limited,basic,DNN_RESCORED Search,190173,6196,52:49:33,1:43:16,,6:53:04
+204-Tamil,Limited,basic,DNN Ingestion,3190874,31800,886:21:14,8:50:00,,35:20:00
+204-Tamil,Limited,basic,DNN Ingestion GPU,109087,28923,30:18:07,8:02:03,16:52:03,32:08:12
+204-Tamil,Limited,basic,DNN Search,164648,5447,45:44:08,1:30:47,,6:03:08
+204-Tamil,Limited,basic,BNF_RESCORED Ingestion,4754819,65730,1320:46:59,18:15:30,,73:02:00
+204-Tamil,Limited,basic,BNF_RESCORED Ingestion GPU,375013,23108,104:10:13,6:25:08,24:40:38,25:40:32
+204-Tamil,Limited,basic,BNF_RESCORED Search,110146,3218,30:35:46,0:53:38,,3:34:32
+204-Tamil,Limited,basic,BNF Ingestion,4703067,62959,1306:24:27,17:29:19,,69:57:16
+204-Tamil,Limited,basic,BNF Ingestion GPU,375013,23108,104:10:13,6:25:08,23:54:27,25:40:32
+204-Tamil,Limited,basic,BNF Search,413623,12038,114:53:43,3:20:38,,13:22:32
+204-Tamil,Limited,basic,BNF_SEMISUP Ingestion,7465384,86117,2073:43:04,23:55:17,,95:41:08
+204-Tamil,Limited,basic,BNF_SEMISUP Ingestion GPU,274032,31118,76:07:12,8:38:38,32:33:55,34:34:32
+204-Tamil,Limited,basic,BNF_SEMISUP Search,263463,10123,73:11:03,2:48:43,,11:14:52
+204-Tamil,Limited,basic,4way comb Ingestion,22003321,316100,6112:02:01,87:48:20,,351:13:20
+204-Tamil,Limited,basic,4way comb Ingestion GPU,758132,83149,210:35:32,23:05:49,110:54:09,92:23:16
+204-Tamil,Limited,basic,4way comb Search,1128841,36258,313:34:01,10:04:18,,40:17:12
+204-Tamil,Limited,extended,DNN_RESCORED Ingestion,7033838,83086,1953:50:38,23:04:46,,92:19:04
+204-Tamil,Limited,extended,DNN_RESCORED Ingestion GPU,109087,28923,12:13:45,1:38:51,24:43:37,6:35:24
+204-Tamil,Limited,extended,DNN_RESCORED Search,80619,2130,22:23:39,0:35:30,,2:22:00
+204-Tamil,Limited,extended,DNN Ingestion,5476630,48404,1521:17:10,13:26:44,,53:46:56
+204-Tamil,Limited,extended,DNN Ingestion GPU,109087,28923,30:18:07,8:02:03,21:28:47,32:08:12
+204-Tamil,Limited,extended,DNN Search,50231,1277,13:57:11,0:21:17,,1:25:08
+204-Tamil,Limited,extended,BNF_RESCORED Ingestion,5508798,65044,1530:13:18,18:04:04,,72:16:16
+204-Tamil,Limited,extended,BNF_RESCORED Ingestion GPU,419102,22510,116:25:02,6:15:10,24:19:14,25:00:40
+204-Tamil,Limited,extended,BNF_RESCORED Search,67437,1583,18:43:57,0:26:23,,1:45:32
+204-Tamil,Limited,extended,BNF Ingestion,5966445,74822,1657:20:45,20:47:02,,83:08:08
+204-Tamil,Limited,extended,BNF Ingestion GPU,375013,23108,104:10:13,6:25:08,27:12:10,25:40:32
+204-Tamil,Limited,extended,BNF Search,242424,5212,67:20:24,1:26:52,,5:47:28
+204-Tamil,Limited,extended,BNF_SEMISUP Ingestion,5600002,62726,1555:33:22,17:25:26,,69:41:44
+204-Tamil,Limited,extended,BNF_SEMISUP Ingestion GPU,274032,31118,76:07:12,8:38:38,26:04:04,34:34:32
+204-Tamil,Limited,extended,BNF_SEMISUP Search,2965,109,0:49:25,0:01:49,,0:07:16
+204-Tamil,Limited,extended,4way comb Ingestion,16886873,237524,4690:47:53,65:58:44,,263:54:56
+204-Tamil,Limited,extended,4way comb Ingestion GPU,758132,83149,210:35:32,23:05:49,89:04:33,92:23:16
+204-Tamil,Limited,extended,4way comb Search,409401,9290,113:43:21,2:34:50,,10:19:20
+204-Tamil,Limited,8-way,8way comb Ingestion,34367618,462194,9546:33:38,128:23:14,,513:32:56
+204-Tamil,,8-way,8way comb Ingestion GPU,758132,83149,210:35:32,23:05:49,151:29:03,92:23:16
+204-Tamil,Limited,8-way,8way comb Search,1538242,45548,427:17:22,12:39:08,,50:36:32
+204-Tamil,Limited,combined,DNN Ingestion,6382756,52467,1772:59:16,14:34:27,,58:17:48
+204-Tamil,Limited,combined,DNN Ingestion GPU,109087,28923,30:18:07,8:02:03,22:36:30,32:08:12
+204-Tamil,Limited,combined,DNN Search,89950,2122,24:59:10,0:35:22,,2:21:28
