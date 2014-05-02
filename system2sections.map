@@ -22,3 +22,4 @@ lim-extlex-dnn,4.9,4.9.1:4.9.2,4.9.3
 lim-extlex-comb4,4.8:4.9:4.10
 lim-extlex-plp,4.8
 lim-extlex-comb8,4.8:4.9:4.10
+lim-combinedlex-dnn,4.9,4.9.1:4.9.2,4.9.3

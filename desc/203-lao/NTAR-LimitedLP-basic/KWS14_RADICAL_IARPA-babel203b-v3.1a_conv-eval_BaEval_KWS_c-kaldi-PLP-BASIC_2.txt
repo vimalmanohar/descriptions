@@ -1,0 +1,26 @@
+Description of Kaldi subsystems
+
+This is a description of one of the kaldi sub-systems. For reference, see the complete system description, part of the submission 204-tamil/KWS14_RADICAL_IARPA-babel204b-v1.1b_conv-eval_BaEval_KWS_c-kaldi-comb-5way_2.kwslist.xml (Internal SHA256 : 40ea1a5c116307d68a3d9818c8a149604ed3a79000f290437410600783e2e9a0)
+
+1. Abstract
+This file contains timing analysis and data definition for the SGMM system using the provided BaseLR lexicon, as described in Section [4.8 Subspace Gaussian Mixture Models (SGMMs)] of the complete system description.
+
+2. Data definition
+
+DATADEF:==BaseLR{203LimitedLP}:AM{203LimitedLP},LM{203LimitedLP},PRON{203LimitedLP},AR{None}
+
+3. Timing Analysis
+
+Ingestion Elapsed Time (hh:mm:ss) - 3:54:02
+Ingestion Total CPU Time (hh:mm:ss) - 168:38:33
+Ingestion Total GPU Time (hh:mm:ss) - 0
+
+Ingestion Maximum CPU Memory (gbytes) - 192
+Ingestion Maximum GPU Memory (gbytes) - 16
+
+Search Elapsed Time (hh:mm:ss) - 0:07:41
+Search Total CPU Time (hh:mm:ss) - 4:09:54
+Search Total GPU Time (hh:mm:ss) - 0:00:00
+
+Search Maximum CPU Memory (gbytes) - 32
+Search Maximum GPU Memory (gbytes) - 16

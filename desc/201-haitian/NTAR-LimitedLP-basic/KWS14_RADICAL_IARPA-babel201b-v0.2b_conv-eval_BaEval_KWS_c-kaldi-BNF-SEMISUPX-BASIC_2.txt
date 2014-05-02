@@ -1,0 +1,26 @@
+Description of Kaldi subsystems
+
+This is a description of one of the kaldi sub-systems. For reference, see the complete system description, part of the submission 204-tamil/KWS14_RADICAL_IARPA-babel204b-v1.1b_conv-eval_BaEval_KWS_c-kaldi-comb-5way_2.kwslist.xml (Internal SHA256 : 40ea1a5c116307d68a3d9818c8a149604ed3a79000f290437410600783e2e9a0)
+
+1. Abstract
+This file contains timing analysis and data definition for the BNF-SEMISUPX system using the provided BaseLR lexicon, as described in Section [4.10 Bottleneck features] of the complete system description. The semi-supervised training involves using the FullLP and "untranscribed" data without the transcripts. The data is segmented automatically and decoded using the DNN (Section [4.9 Deep Neural Networks]) system to get the 1-best output. The state-level posteriors on this 1-best path from both the DNN and PLP (Section [4.8 Subspace Gaussian Mixture Models (SGMMs)]) systems are interpolated and used to do frame-selection. Only the frames that have a state-level posterior above a threshold (we use a low threshold of 0.35 for this case) are selected and used for cross-entropy neural network training.
+
+2. Data definition
+
+DATADEF:==BaseLR{201LimitedLP}:AM{201LimitedLP},LM{201LimitedLP},PRON{201LimitedLP},AR{None}
+
+3. Timing Analysis
+
+Ingestion Elapsed Time (hh:mm:ss) - 25:13:52
+Ingestion Total CPU Time (hh:mm:ss) - 757:08:58
+Ingestion Total GPU Time (hh:mm:ss) - 70:44:56
+
+Ingestion Maximum CPU Memory (gbytes) - 192
+Ingestion Maximum GPU Memory (gbytes) - 16
+
+Search Elapsed Time (hh:mm:ss) - 0:09:28
+Search Total CPU Time (hh:mm:ss) - 6:22:13
+Search Total GPU Time (hh:mm:ss) - 0:00:00
+
+Search Maximum CPU Memory (gbytes) - 32
+Search Maximum GPU Memory (gbytes) - 16

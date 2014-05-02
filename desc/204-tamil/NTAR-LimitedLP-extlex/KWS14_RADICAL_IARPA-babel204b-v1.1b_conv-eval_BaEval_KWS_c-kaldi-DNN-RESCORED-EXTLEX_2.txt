@@ -1,0 +1,26 @@
+Description of Kaldi subsystems
+
+This is a description of one of the kaldi sub-systems. For reference, see the complete system description, part of the submission 204-tamil/KWS14_RADICAL_IARPA-babel204b-v1.1b_conv-eval_BaEval_KWS_c-kaldi-comb-5way_2.kwslist.xml (Internal SHA256 : 40ea1a5c116307d68a3d9818c8a149604ed3a79000f290437410600783e2e9a0)
+
+1. Abstract
+This file contains timing analysis and data definition for the DNN-RESCORED system using the extended lexicon of Section [4.4 Lexicon (expanded)], as described in Section [4.9 Deep Neural Networks] of the complete system description. This sub-system includes Section [4.9.1 p-norm nonlinearities] but excludes Sections [4.17 Class-based language model], [4.9.2 Ensemble training].
+
+2. Data definition
+
+DATADEF:==BaseLR{204LimitedLP}:AM{204LimitedLP},LM{204LimitedLP},PRON{204LimitedLP},AR{None}
+
+3. Timing Analysis
+
+Ingestion Elapsed Time (hh:mm:ss) - 24:43:37
+Ingestion Total CPU Time (hh:mm:ss) - 1953:50:38
+Ingestion Total GPU Time (hh:mm:ss) - 6:35:24
+
+Ingestion Maximum CPU Memory (gbytes) - 192
+Ingestion Maximum GPU Memory (gbytes) - 16
+
+Search Elapsed Time (hh:mm:ss) - 0:35:30
+Search Total CPU Time (hh:mm:ss) - 22:23:39
+Search Total GPU Time (hh:mm:ss) - 0:00:00
+
+Search Maximum CPU Memory (gbytes) - 32
+Search Maximum GPU Memory (gbytes) - 16

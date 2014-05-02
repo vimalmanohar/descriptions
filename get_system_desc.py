@@ -39,8 +39,10 @@ def system2string(system_type,lang_pack,lexicon,system2sections,section2string):
             sub_string = 'PLP, BNF, DNN and DNN-Sequence-Trained systems'
         if lexicon == 'basic':
             desc_string = '%s of 4 sub-systems: %s, each of them using the provided BaseLR lexicon.' % (temp_string, sub_string)
-        else:
+        elif lexicon == 'extended':
             desc_string = '%s of 4 sub-systems: %s, each of them using the extended lexicon of Section %s.' % (temp_string, sub_string, section2string['4.4'])
+        else:
+            desc_string = '%s of 4 sub-systems: %s, each of them using the combined lexicon of Section %s.' % (temp_string, sub_string, section2string['4.4'])
         desc_string += ' The individual sub-systems are described in Sections %s of the complete system description' % ', '.join(sections[0])
         return desc_string
     if system_type == '8way comb':
@@ -55,6 +57,8 @@ def system2string(system_type,lang_pack,lexicon,system2sections,section2string):
         desc_string = '%s system using the provided BaseLR lexicon' % temp_string
     elif lexicon == 'extended':
         desc_string = '%s system using the extended lexicon of Section %s' % (temp_string, section2string['4.4'])
+    elif lexicon == 'combined':
+        desc_string = '%s system using the combined lexicon from both the extended lexicon of Section %s and segmental system of Section %s' % (temp_string, section2string['4.4'],section2string['4.18'])
     else:
         sys.stderr.write('Unknown lexicon %s\n' % lexicon)
         sys.exit(1)
@@ -104,7 +108,7 @@ def type2string(system_type,lang_pack):
 def condition2dir(lang_pack,lexicon):
     if lexicon in ('base','basic'):
         return 'NTAR-%s-basic' % lang_pack
-    if lexicon in ('Extended','extended','8way'):
+    if lexicon in ('Extended','extended','8way','combined'):
         return 'NTAR-%s-extlex' % lang_pack
     print (lexicon)
     assert (False)
@@ -149,6 +153,19 @@ def read_sections(sections_file,sections_map):
 
     return [section2string, system2sections]
 
+if len(sys.argv) == 4:
+    in_file = open(sys.argv[1])
+    section2string_file = sys.argv[2]
+    system2sections_file = sys.argv[3]
+elif len(sys.argv) == 3:
+    in_file = sys.stdin
+    section2string_file = sys.argv[1]
+    system2sections_file = sys.argv[2]
+else:
+    sys.stderr.write("Num arguments < 2")
+    sys.exit(1)
+
+
 lang_id2lang = {
         102: '102-assamese',
         103: '103-bengali',
@@ -161,7 +178,7 @@ lang_id2lang = {
 suff_stats = {}
 i=-1
 
-for line in sys.stdin.readlines():
+for line in in_file.readlines():
     i += 1
     if i == 0:
         continue
@@ -209,7 +226,7 @@ for line in sys.stdin.readlines():
         suff_stats[(lang,lang_pack,lexicon,system_type)][4] = total_time
         suff_stats[(lang,lang_pack,lexicon,system_type)][5] = '0:00:00'
 
-section2string, system2sections = read_sections(sys.argv[1], sys.argv[2])
+section2string, system2sections = read_sections(section2string_file, system2sections_file)
 lang_id2string = {
         102: '102b-v0.5a',
         103: '103b-v0.4b',
@@ -222,8 +239,10 @@ lang_id2string = {
 for lang,lang_pack,lexicon,system_type in suff_stats:
     lang_id = int(lang.split('-')[0])
     assert(lang_id in (102,103,201,203,206,204))
-    assert(lang_pack in ('FullLP','LimitedLP'))
-    assert(lexicon in ('basic','extended','8way','8-way') or sys.stderr.write(lexicon))
+    if lang_pack not in ('FullLP','LimitedLP'):
+        sys.stderr.write(lang_pack)
+        sys.exit(1)
+    assert(lexicon in ('basic','extended','combined','8way','8-way') or sys.stderr.write(lexicon))
 
     datadef = "DATADEF:==BaseLR{%d%s}:AM{%d%s},LM{%d%s},PRON{%d%s},AR{None}" % (lang_id, lang_pack, lang_id, lang_pack, lang_id, lang_pack, lang_id, lang_pack)
 
@@ -238,6 +257,8 @@ for lang,lang_pack,lexicon,system_type in suff_stats:
     system_string = 'kaldi-' + type2string(system_type,lang_pack)
     if lexicon == 'basic':
       system_string += '-BASIC'
+    elif lexicon == 'combined':
+      system_string += '-COMBINED'
     else:
       system_string += '-EXTLEX'
 

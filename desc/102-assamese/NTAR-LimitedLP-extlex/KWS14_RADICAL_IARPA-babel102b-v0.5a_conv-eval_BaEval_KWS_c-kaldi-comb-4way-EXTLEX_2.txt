@@ -1,0 +1,26 @@
+Description of Kaldi subsystems
+
+This is a description of one of the kaldi sub-systems. For reference, see the complete system description, part of the submission 204-tamil/KWS14_RADICAL_IARPA-babel204b-v1.1b_conv-eval_BaEval_KWS_c-kaldi-comb-5way_2.kwslist.xml (Internal SHA256 : 40ea1a5c116307d68a3d9818c8a149604ed3a79000f290437410600783e2e9a0)
+
+1. Abstract
+This file contains timing analysis and data definition for the 4-way combination of 4 sub-systems: PLP, DNN, BNF and BNF-Semisupervised systems, each of them using the extended lexicon of Section [4.4 Lexicon (expanded)]. The individual sub-systems are described in Sections [4.8 Subspace Gaussian Mixture Models (SGMMs)], [4.9 Deep Neural Networks], [4.10 Bottleneck features] of the complete system description.
+
+2. Data definition
+
+DATADEF:==BaseLR{102LimitedLP}:AM{102LimitedLP},LM{102LimitedLP},PRON{102LimitedLP},AR{None}
+
+3. Timing Analysis
+
+Ingestion Elapsed Time (hh:mm:ss) - 34:17:41
+Ingestion Total CPU Time (hh:mm:ss) - 1206:52:59
+Ingestion Total GPU Time (hh:mm:ss) - 81:48:00
+
+Ingestion Maximum CPU Memory (gbytes) - 192
+Ingestion Maximum GPU Memory (gbytes) - 16
+
+Search Elapsed Time (hh:mm:ss) - 0:21:11
+Search Total CPU Time (hh:mm:ss) - 15:52:27
+Search Total GPU Time (hh:mm:ss) - 0:00:00
+
+Search Maximum CPU Memory (gbytes) - 32
+Search Maximum GPU Memory (gbytes) - 16
